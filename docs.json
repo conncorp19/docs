@@ -16,31 +16,16 @@
           {
             "group": "시작하기",
             "pages": [
-              "index"
+              "index",
+              "features",
+              "pricing"
             ]
           },
           {
-            "group": "Customization",
+            "group": "센터 운영자 가이드",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "class",
+              "enrollment"
             ]
           }
         ]
