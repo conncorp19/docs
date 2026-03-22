@@ -28,14 +28,31 @@
               {
                 "group": "센터 관리",
                 "pages": [
+                  "dashboard",
                   "class",
                   "enrollment",
-                  "dashboard",
                   "students",
                   "instructor",
-                  "settings"
+                  "settings",
+                  "team",
+                  "billing"
                 ]
               }
+            ]
+          },
+          {
+            "group": "수강생 가이드",
+            "pages": [
+              "apply",
+              "my-status",
+              "cancel"
+            ]
+          },
+          {
+            "group": "자주 묻는 질문",
+            "pages": [
+              "faq-center",
+              "faq-student"
             ]
           },
           {
