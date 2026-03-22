@@ -24,8 +24,15 @@
           {
             "group": "센터 운영자 가이드",
             "pages": [
-              "class",
-              "enrollment"
+              "create-center",
+              {
+                "group": "센터 관리",
+                "pages": [
+                  "file",
+                  "class",
+                  "enrollment"
+                ]
+              }
             ]
           }
         ]
