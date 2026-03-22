@@ -28,7 +28,6 @@
               {
                 "group": "센터 관리",
                 "pages": [
-                  "file",
                   "class",
                   "enrollment"
                 ]
