@@ -29,9 +29,20 @@
                 "group": "센터 관리",
                 "pages": [
                   "class",
-                  "enrollment"
+                  "enrollment",
+                  "dashboard",
+                  "students",
+                  "instructor",
+                  "settings"
                 ]
               }
+            ]
+          },
+          {
+            "group": "참고",
+            "pages": [
+              "tmp-quickstart",
+              "AGENTS"
             ]
           }
         ]
