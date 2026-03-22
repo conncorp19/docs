@@ -16,9 +16,7 @@
           {
             "group": "시작하기",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
