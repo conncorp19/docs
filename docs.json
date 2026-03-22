@@ -36,8 +36,8 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "문의하기",
+        "href": "mailto:support@classform.net"
       }
     ],
     "primary": {
@@ -58,15 +58,13 @@
      "vscode"
    ]
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  },
   "appearance": {
     "strict": true,
     "default": "light"
+  },
+  "api": {
+    "playground": {
+      "proxy": false
+    }
   }
 }
