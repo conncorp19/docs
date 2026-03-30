@@ -41,14 +41,6 @@
             ]
           },
           {
-            "group": "수강생 가이드",
-            "pages": [
-              "apply",
-              "my-status",
-              "cancel"
-            ]
-          },
-          {
             "group": "자주 묻는 질문",
             "pages": [
               "faq-center",
@@ -67,8 +59,11 @@
       {
         "tab": "수강생 가이드",
         "pages": [
-          "file",
-          "file-1"
+          "student-start",
+          "apply",
+          "my-status",
+          "cancel",
+          "student-faq"
         ]
       }
     ]
