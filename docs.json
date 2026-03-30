@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "가이드",
+        "tab": "센터관리자 가이드",
         "groups": [
           {
             "group": "시작하기",
@@ -62,6 +62,13 @@
               "AGENTS"
             ]
           }
+        ]
+      },
+      {
+        "tab": "수강생 가이드",
+        "pages": [
+          "file",
+          "file-1"
         ]
       }
     ]
