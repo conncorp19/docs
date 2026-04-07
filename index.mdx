@@ -1,62 +1,132 @@
 ---
 title: "빠른 시작"
-description: "ClassForm으로 수강신청을 받기까지 3단계를 안내합니다."
+description: "클래스폼으로 수강신청 페이지를 만들고 신청을 받기까지의 과정을 안내합니다."
+icon: "rocket"
 ---
 
-## Setting up
+클래스폼은 구글폼과 엑셀로 처리하던 수강신청 업무를 하나로 통합하는 서비스입니다. 가입부터 수강신청을 받기까지, 5단계로 시작할 수 있습니다.
 
-Get your documentation site up and running in minutes.
+---
 
-<Card title="Start here" icon="rocket" horizontal href="/quickstart">
-  Follow our three step quickstart guide.
-</Card>
+<Steps>
+  <Step title="회원가입">
+    <Frame caption="클래스폼 회원가입 화면">
+      ![M Quickstart Signup](/images/m_quickstart-signup.png)
+    </Frame>
 
-## Make it yours
+    {/* 📸 스크린샷: classform.net 회원가입 페이지
+  - 파일명: quickstart-signup.png
+  - 권장 크기: 1200x800px
+  - 포함 요소: 이메일/이름/연락처/비밀번호 입력 필드, 약관 체크박스, "회원가입" 버튼, Google 로그인 버튼
+*/}
 
-Design a docs site that looks great and empowers your users.
+    [classform.net](https://classform.net)에 접속하여 \*\*"무료로 시작하기"\*\*를 클릭합니다. 이메일, 이름, 연락처, 비밀번호를 입력하고 약관에 동의하면 가입이 완료됩니다.
 
-<Columns cols={2}>
-  <Card title="Edit locally" icon="pen-to-square" href="/development">
-    Edit your docs locally and preview them in real time.
+    가입 후 이메일로 발송되는 인증 메일에서 \*\*"이메일 인증하기"\*\*를 클릭해 주세요.
+
+    <Tip>
+      Google 계정으로 가입하면 별도 인증 없이 바로 시작할 수 있습니다.
+    </Tip>
+  </Step>
+  <Step title="센터 만들기">
+    <Frame caption="센터 생성 화면">
+      ![M Quickstart Create Center](/images/m_quickstart-create-center.png)
+    </Frame>
+
+    {/* 📸 스크린샷: 센터 생성 플로우 (요금제 선택 → 센터 이름 입력 → 생성 확인)
+  - 파일명: quickstart-create-center.png
+  - 권장 크기: 1200x700px
+  - 포함 요소: 요금제 선택 카드(Free/Basic/Pro), 센터 이름 입력 필드, "센터 생성" 버튼
+*/}
+
+    로그인 후 \*\*"센터 만들기"\*\*를 클릭합니다. 요금제를 선택하고 센터 이름을 입력하면 센터가 생성됩니다.
+
+    먼저 Free 플랜으로 시작하고, 필요할 때 업그레이드할 수 있습니다.
+
+    <Frame caption="센터 설정">
+      ![M Quickstart Center Setting 3](/images/m_quickstart-center-setting-3.png)
+    </Frame>
+
+    {/* 📸 스크린샷: 센터 생성 플로우 (요금제 선택 → 센터 이름 입력 → 생성 확인)
+  - 파일명: quickstart-create-center.png
+  - 권장 크기: 1200x700px
+  - 포함 요소: 요금제 선택 카드(Free/Basic/Pro), 센터 이름 입력 필드, "센터 생성" 버튼
+*/}
+
+    센터가 만들어지면 **센터 설정**에서 입금 계좌, 연락처 등 기본 정보를 입력해 주세요. 입금 계좌는 수강생에게 안내되는 정보이므로 정확하게 입력해야 합니다.
+  </Step>
+  <Step title="강사 등록">
+    <Frame caption="강사 등록 화면">
+      ![M Quickstart Instructor](/images/m_quickstart-instructor.png)
+    </Frame>
+
+    {/* 📸 스크린샷: 강사 등록 폼
+  - 파일명: quickstart-instructor.png
+  - 권장 크기: 1200x700px
+  - 포함 요소: 이름, 연락처, 프로필(강사 소개) 입력 필드, 프로필 사진 업로드 영역
+*/}
+
+    **강사 관리 → 강사 등록**에서 강사를 등록합니다. 이름, 연락처, 강사 소개를 입력하면 됩니다.
+
+    강사 프로필은 수강신청 페이지의 클래스 정보에 표시됩니다.
+
+    <Note>
+      강사 없이도 클래스를 만들 수 있습니다. 나중에 등록해도 괜찮습니다.
+    </Note>
+  </Step>
+  <Step title="클래스 만들기">
+    <Frame caption="클래스 등록 화면">
+      ![M Quickstart Create Class](/images/m_quickstart-create-class.png)
+    </Frame>
+
+    {/* 📸 스크린샷: 클래스 만들기 폼 (기본 정보 섹션)
+  - 파일명: quickstart-create-class.png
+  - 권장 크기: 1200x800px
+  - 포함 요소: 클래스명, 카테고리, 강사 선택, 수강료, 정원 입력 필드
+*/}
+
+    **클래스 관리 → 클래스 만들기**에서 새 클래스를 등록합니다.
+
+    | 필수 항목 | 선택 항목 |
+    | --- | --- |
+    | 클래스명 | 카테고리, 강사, 강의 장소 |
+    |  | 수강신청 기간, 강의 기간 |
+    |  | 수강료, 정원, 대기 인원 |
+    |  | 클래스 소개, 커리큘럼 |
+
+    클래스를 공개로 설정하면 수강신청 페이지에 바로 표시됩니다.
+  </Step>
+  <Step title="센터 클래스 홈">
+    <Frame caption="센터 페이지 URL 공유">
+      ![M Quickstart Home](/images/m_quickstart-home.png)
+    </Frame>
+
+    {/* 📸 스크린샷: 센터 설정의 센터 주소(slug) 영역 또는 센터 페이지 미리보기
+  - 파일명: quickstart-share.png
+  - 권장 크기: 1200x600px
+  - 포함 요소: classform.net/센터이름 형태의 URL, 복사 버튼 또는 공유 안내
+*/}
+
+    사이드바 하단의 "센터 클래스 홈"을 클릭하면 모집 사이트를 확인할 수 있습니다.
+
+    카카오톡, 인스타그램, 블로그, 이메일 등 어디든 센터 클래스 홈 주소를 공유해주세요. 수강생은 회원가입 없이 바로 신청할 수 있습니다.
+
+    <Tip>
+      센터 설정에서 짧은 주소(slug)를 등록하면 간결한 링크를 사용할 수 있습니다.
+    </Tip>
+  </Step>
+</Steps>
+
+---
+
+## 다음 단계
+
+<CardGroup cols={2}>
+  <Card title="주요 기능" icon="grid-2" href="/manage/features">
+    클래스폼의 기능을 더 자세히 알아보세요.
   </Card>
 
-  <Card title="Customize your site" icon="palette" href="/essentials/settings">
-    Customize the design and colors of your site to match your brand.
+  <Card title="클래스 관리" icon="chalkboard" href="/manage/class">
+    클래스 등록과 관리 방법을 상세히 알아보세요.
   </Card>
-
-  <Card title="Set up navigation" icon="map" href="/essentials/navigation">
-    Organize your docs to help users find what they need and succeed with your product.
-  </Card>
-
-  <Card title="API documentation" icon="terminal" href="/api-reference/introduction">
-    Auto-generate API documentation from OpenAPI specifications.
-  </Card>
-</Columns>
-
-## Create beautiful pages
-
-Everything you need to create world-class documentation.
-
-<Columns cols={2}>
-  <Card title="Write with MDX" icon="pen-fancy" href="/essentials/markdown">
-    Use MDX to style your docs pages.
-  </Card>
-
-  <Card title="Code samples" icon="code" href="/essentials/code">
-    Add sample code to demonstrate how to use your product.
-  </Card>
-
-  <Card title="Images" icon="image" href="/essentials/images">
-    Display images and other media.
-  </Card>
-
-  <Card title="Reusable snippets" icon="recycle" href="/essentials/reusable-snippets">
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
-
-## Need inspiration?
-
-<Card title="See complete examples" icon="stars" href="https://mintlify.com/customers">
-  Browse our showcase of exceptional documentation sites.
-</Card>
+</CardGroup>
