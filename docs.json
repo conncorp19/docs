@@ -25,19 +25,14 @@
             "group": "센터 운영자 가이드",
             "pages": [
               "create-center",
-              {
-                "group": "센터 관리",
-                "pages": [
-                  "dashboard",
-                  "class",
-                  "enrollment",
-                  "students",
-                  "instructor",
-                  "settings",
-                  "team",
-                  "billing"
-                ]
-              }
+              "settings",
+              "dashboard",
+              "class",
+              "enrollment",
+              "students",
+              "instructor",
+              "team",
+              "billing"
             ]
           },
           {
