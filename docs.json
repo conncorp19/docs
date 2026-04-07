@@ -41,17 +41,15 @@
             ]
           },
           {
-            "group": "자주 묻는 질문",
+            "group": "활용하기",
             "pages": [
-              "faq-center",
-              "faq-student"
+              "share-link"
             ]
           },
           {
-            "group": "참고",
+            "group": "자주 묻는 질문",
             "pages": [
-              "tmp-quickstart",
-              "AGENTS"
+              "faq-center"
             ]
           }
         ]
@@ -59,7 +57,6 @@
       {
         "tab": "수강생 가이드",
         "pages": [
-          "student-start",
           "apply",
           "my-status",
           "cancel",
