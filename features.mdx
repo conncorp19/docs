@@ -10,34 +10,53 @@ icon: "grid-2"
 
 ## 운영자 기능
 
+### **대시보드**
+
+<Frame caption="대시보드">
+  ![M Feature Dashboard 1](/images/m_feature_dashboard-1.png)
+</Frame>
+
+<frame>
+
+  대시보드 화면
+</frame>
+
+매출, 신청 현황, 처리가 필요한 건수를 한눈에 파악할 수 있습니다. 기간별로 조회하고, 처리가 필요한 건은 바로 해당 관리 화면으로 이동할 수 있습니다.
+
+- **수익 현황**: 총 수익, 입금액, 환불액을 확인합니다.
+- **신청 현황**: 총 신청, 수강확정, 취소 건수를 확인합니다.
+- **처리 필요**: 입금확인요청, 환불요청, 수강확정대기, 기한만료 건을 바로 확인합니다.
+
+---
+
 ### 수강신청 페이지 자동 생성
 
 <Frame caption="센터 수강신청 페이지 예시">
-  ![수강신청 페이지](/images/manage/features-center-page.png)
+  ![M Feature Student](/images/m_feature_student.png)
 </Frame>
 
 {/* 📸 스크린샷: 수강생이 보는 센터 홈페이지 (센터 로고, 카테고리, 클래스 목록이 표시된 상태)
-  - 파일명: features-center-page.png
-  - 권장 크기: 1200x900px
-  - 포함 요소: 센터 로고/이름, 카테고리 탭, 클래스 카드 목록(이미지, 클래스명, 강사, 수강료, 정원 표시)
+- 파일명: features-center-page.png
+- 권장 크기: 1200x900px
+- 포함 요소: 센터 로고/이름, 카테고리 탭, 클래스 카드 목록(이미지, 클래스명, 강사, 수강료, 정원 표시)
 */}
 
-센터 정보와 클래스를 입력하면 수강신청 페이지가 자동으로 만들어집니다. 각 센터마다 `classform.net/center/센터이름` 형태의 고유 URL이 부여되어 SNS, 메신저, 블로그 어디든 간편하게 공유할 수 있습니다.
+센터 정보와 클래스를 등록하면 수강신청 페이지가 자동으로 만들어집니다. 각 센터마다 `classform.net/center/센터이름` 형태의 고유 URL이 부여되어 SNS, 메신저, 블로그 어디든 간편하게 공유할 수 있습니다.
 
 클래스 상세 페이지에는 리치 텍스트 설명, 이미지, 강사 프로필, 커리큘럼이 표시됩니다. 수강생은 별도 앱 설치 없이 링크를 클릭하면 바로 접속할 수 있습니다.
 
 ---
 
-### 클래스 등록·관리
+### 클래스 등록/관리
 
 <Frame caption="클래스 관리 목록 화면">
-  ![클래스 관리](/images/manage/features-class-list.png)
+  ![M Feature Class](/images/m_feature_class.png)
 </Frame>
 
 {/* 📸 스크린샷: 클래스 관리 목록 페이지
-  - 파일명: features-class-list.png
-  - 권장 크기: 1200x800px
-  - 포함 요소: 상단 현황 요약(전체/오픈예정/모집중/대기접수/모집마감), 클래스 목록 테이블, 필터/검색 영역
+- 파일명: features-class-list.png
+- 권장 크기: 1200x800px
+- 포함 요소: 상단 현황 요약(전체/오픈예정/모집중/대기접수/모집마감), 클래스 목록 테이블, 필터/검색 영역
 */}
 
 클래스명, 일정, 수강료, 정원, 강사 정보까지 클래스 모집에 필요한 항목이 모두 준비되어 있습니다.
@@ -51,13 +70,13 @@ icon: "grid-2"
 ### 신청 상태 관리
 
 <Frame caption="신청 관리 화면">
-  ![신청 관리](/images/manage/features-enrollment.png)
+  ![M Feature Apply](/images/m_feature_apply.png)
 </Frame>
 
 {/* 📸 스크린샷: 신청 관리 목록 페이지
-  - 파일명: features-enrollment.png
-  - 권장 크기: 1200x800px
-  - 포함 요소: 상단 수익/신청 현황 카드, 상태별 탭(입금대기/입금확인요청/수강확정대기 등), 신청 목록 테이블
+- 파일명: features-enrollment.png
+- 권장 크기: 1200x800px
+- 포함 요소: 상단 수익/신청 현황 카드, 상태별 탭(입금대기/입금확인요청/수강확정대기 등), 신청 목록 테이블
 */}
 
 입금대기, 입금확인, 수강확정, 환불까지 11개 탭으로 나눠서 한눈에 확인하고, 클릭 한 번으로 처리할 수 있습니다.
@@ -69,16 +88,16 @@ icon: "grid-2"
 
 ---
 
-### 정원·대기 자동 관리
+### 정원/대기 자동 관리
 
 <Frame caption="클래스 상세 — 정원 및 대기 현황">
-  ![정원·대기 관리](/images/manage/features-capacity.png)
+  ![M Feature Wait](/images/m_feature_wait.png)
 </Frame>
 
 {/* 📸 스크린샷: 클래스 상세 페이지의 정원/신청/확정/대기 현황 영역
-  - 파일명: features-capacity.png
-  - 권장 크기: 1200x600px
-  - 포함 요소: 정원 n/n, 신청 n건, 확정 n명, 대기 n명 표시, 수강생 현황 테이블
+- 파일명: features-capacity.png
+- 권장 크기: 1200x600px
+- 포함 요소: 정원 n/n, 신청 n건, 확정 n명, 대기 n명 표시, 수강생 현황 테이블
 */}
 
 정원이 차면 자동으로 마감되고, 대기 신청으로 전환됩니다. 빈자리가 나면 대기자를 정규로 배정할 수 있습니다.
@@ -89,36 +108,16 @@ icon: "grid-2"
 
 ---
 
-### 대시보드
-
-<Frame caption="대시보드 화면">
-  ![대시보드](/images/manage/features-dashboard.png)
-</Frame>
-
-{/* 📸 스크린샷: 대시보드 전체 화면
-  - 파일명: features-dashboard.png
-  - 권장 크기: 1200x900px
-  - 포함 요소: 기간 필터(오늘/1주일/1개월/3개월), 수익 현황, 신청 현황, 클래스 현황, 처리 필요 영역
-*/}
-
-매출, 신청 현황, 처리가 필요한 건수를 한눈에 파악할 수 있습니다. 기간별로 조회하고, 처리가 필요한 건은 바로 해당 관리 화면으로 이동할 수 있습니다.
-
-- **수익 현황**: 총 수익, 입금액, 환불액을 확인합니다.
-- **신청 현황**: 총 신청, 수강확정, 취소 건수를 확인합니다.
-- **처리 필요**: 입금확인요청, 환불요청, 수강확정대기, 기한만료 건을 바로 확인합니다.
-
----
-
 ### 강사 관리
 
 <Frame caption="강사 관리 화면">
-  ![강사 관리](/images/manage/features-instructor.png)
+  ![M Feature Instructor](/images/m_feature_instructor.png)
 </Frame>
 
 {/* 📸 스크린샷: 강사 목록 페이지
-  - 파일명: features-instructor.png
-  - 권장 크기: 1200x600px
-  - 포함 요소: 강사 목록 테이블(이름, 연락처, 상태, 담당 클래스), 상단 현황(총 강사/활동중/비활동)
+- 파일명: features-instructor.png
+- 권장 크기: 1200x600px
+- 포함 요소: 강사 목록 테이블(이름, 연락처, 상태, 담당 클래스), 상단 현황(총 강사/활동중/비활동)
 */}
 
 강사를 등록하고 클래스에 배정할 수 있습니다. 강사 프로필(소개글, 사진)은 수강신청 페이지에서 수강생에게 표시됩니다.
@@ -132,13 +131,13 @@ icon: "grid-2"
 ### SMS 알림
 
 <Frame caption="SMS 발송 설정 화면">
-  ![SMS 알림](/images/manage/features-sms.png)
+  ![M Feature Sms](/images/m_feature_sms.png)
 </Frame>
 
 {/* 📸 스크린샷: 센터 설정 > SMS 발송 설정 영역
-  - 파일명: features-sms.png
-  - 권장 크기: 1200x600px
-  - 포함 요소: 신청완료 안내(LMS), 수강확정 안내(SMS), 입금만료 안내(SMS) 각각의 사용/미사용 토글
+- 파일명: features-sms.png
+- 권장 크기: 1200x600px
+- 포함 요소: 신청완료 안내(LMS), 수강확정 안내(SMS), 입금만료 안내(SMS) 각각의 사용/미사용 토글
 */}
 
 신청 완료, 입금 확인, 기한 임박 알림이 자동으로 발송됩니다. 수강생이 직접 확인하지 않아도 중요한 안내를 놓치지 않습니다.
@@ -147,7 +146,6 @@ icon: "grid-2"
 | --- | --- | --- |
 | 신청완료 안내 | 수강 신청 완료 시 | LMS |
 | 수강확정 안내 | 입금 확인 후 | SMS |
-| 입금만료 안내 | 입금 기한 경과 시 | SMS |
 
 각 항목별로 발송 여부를 개별 설정할 수 있으며, 수강생·강사에게 직접 문자를 보내는 수동 발송도 가능합니다.
 
@@ -156,13 +154,13 @@ icon: "grid-2"
 ### 팀원 관리
 
 <Frame caption="팀원 관리 화면">
-  ![팀원 관리](/images/manage/features-team.png)
+  ![M Feature Team](/images/m_feature_team.png)
 </Frame>
 
 {/* 📸 스크린샷: 팀원 관리 목록 페이지
-  - 파일명: features-team.png
-  - 권장 크기: 1200x500px
-  - 포함 요소: 팀원 목록(이름, 이메일, 권한, 상태), "팀원 초대" 버튼
+- 파일명: features-team.png
+- 권장 크기: 1200x500px
+- 포함 요소: 팀원 목록(이름, 이메일, 권한, 상태), "팀원 초대" 버튼
 */}
 
 하나의 센터에 여러 관리자가 접속하여 함께 운영할 수 있습니다. 이메일 초대로 팀원을 추가하고, 권한(대표/스탭)을 설정합니다.
@@ -175,6 +173,10 @@ icon: "grid-2"
 
 ### 엑셀 내보내기
 
+<Frame caption="엑셀 내보내기">
+  ![M Feature Excel](/images/m_feature_excel.png)
+</Frame>
+
 클래스 목록, 수강생 목록, 신청 목록을 파일로 다운로드할 수 있습니다. 현재 조회 중인 필터와 기간이 그대로 적용되어 원하는 데이터만 내려받을 수 있습니다.
 
 ---
@@ -184,13 +186,13 @@ icon: "grid-2"
 ### 클래스 상세 확인
 
 <Frame caption="클래스 상세 페이지 (수강생 화면)">
-  ![클래스 상세](/images/manage/features-student-detail.png)
+  ![M Feature S Class](/images/m_feature_s_class.png)
 </Frame>
 
 {/* 📸 스크린샷: 수강생이 보는 클래스 상세 페이지
-  - 파일명: features-student-detail.png
-  - 권장 크기: 800x1200px (모바일 비율 권장)
-  - 포함 요소: 클래스 이미지, 클래스명, 강사 프로필, 수강료, 정원/잔여 인원, 커리큘럼, "신청하기" 버튼
+- 파일명: features-student-detail.png
+- 권장 크기: 800x1200px (모바일 비율 권장)
+- 포함 요소: 클래스 이미지, 클래스명, 강사 프로필, 수강료, 정원/잔여 인원, 커리큘럼, "신청하기" 버튼
 */}
 
 클래스 설명, 커리큘럼, 강사 프로필, 잔여 정원을 한 페이지에서 확인할 수 있습니다.
@@ -200,13 +202,13 @@ icon: "grid-2"
 ### 장바구니
 
 <Frame caption="장바구니 화면 (수강생 화면)">
-  ![장바구니](/images/manage/features-student-cart.png)
+  ![M Feature S Basket](/images/m_feature_s_basket.png)
 </Frame>
 
 {/* 📸 스크린샷: 수강생 장바구니 화면
-  - 파일명: features-student-cart.png
-  - 권장 크기: 800x900px (모바일 비율 권장)
-  - 포함 요소: 담긴 클래스 목록, 수강료 합계, "신청하기" 버튼
+- 파일명: features-student-cart.png
+- 권장 크기: 800x900px (모바일 비율 권장)
+- 포함 요소: 담긴 클래스 목록, 수강료 합계, "신청하기" 버튼
 */}
 
 여러 클래스를 담아 한 번에 신청할 수 있습니다. 클래스마다 따로 신청할 필요 없이 수강료가 자동 계산됩니다.
@@ -216,13 +218,13 @@ icon: "grid-2"
 ### 간편 인증
 
 <Frame caption="수강생 인증 화면">
-  ![간편 인증](/images/manage/features-student-auth.png)
+  ![M Feature S Auth](/images/m_feature_s_auth.png)
 </Frame>
 
 {/* 📸 스크린샷: 수강생 로그인/인증 화면
-  - 파일명: features-student-auth.png
-  - 권장 크기: 800x600px (모바일 비율 권장)
-  - 포함 요소: 이름, 연락처, PIN 입력 필드
+- 파일명: features-student-auth.png
+- 권장 크기: 800x600px (모바일 비율 권장)
+- 포함 요소: 이름, 연락처, PIN 입력 필드
 */}
 
 앱 설치 없이, 회원가입 없이 바로 신청할 수 있습니다. 이름, 연락처, 4자리 PIN이면 충분합니다.
@@ -231,7 +233,11 @@ icon: "grid-2"
 
 ### SMS 알림 (수강생)
 
-수강생에게도 중요한 알림이 자동으로 발송됩니다. 신청 완료 시 입금 안내, 수강 확정 안내, 입금 기한 임박 알림을 받을 수 있어 직접 확인하지 않아도 놓치지 않습니다.
+<Frame caption="SMS (알림톡)">
+  ![M Feature S Sms](/images/m_feature_s_sms.png)
+</Frame>
+
+수강생에게도 중요한 알림(SMS 또는 알림톡)이 자동으로 발송됩니다. 신청 완료 시 입금 안내, 수강 확정 안내, 입금 기한 임박 알림을 받을 수 있어 직접 확인하지 않아도 놓치지 않습니다.
 
 ---
 
